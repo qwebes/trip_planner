@@ -8,32 +8,33 @@
 This system calculates the most efficient or cost-effective paths between railway stations. It integrates graph theory with real-time visualization to map geographic data directly into the terminal environment.
 
 ## Key Features:
-**Dijkstra’s Algorithm Implementation:** Efficient pathfinding based on two primary weights: travel duration (time) and ticket pricing (cost).
+--**Dijkstra’s Algorithm Implementation:** Efficient pathfinding based on two primary weights: travel duration (time) and ticket pricing (cost).
 
-**Geographic Visualization:** High-fidelity rendering of Ukraine's national borders and station hubs using ftxui::Canvas.
+--**Geographic Visualization:** High-fidelity rendering of Ukraine's national borders and station hubs using ftxui::Canvas.
 
-**Coordinate Projection Model:** Mathematical transformation of Longitude/Latitude coordinates into a discrete terminal-based coordinate system.
+--**Coordinate Projection Model:** Mathematical transformation of Longitude/Latitude coordinates into a discrete terminal-based coordinate system.
 
-**Interactive Spatial Interaction**: Mouse-event handling for selecting arbitrary points on the map.
+--**Interactive Spatial Interaction**: Mouse-event handling for selecting arbitrary points on the map.
 
+---
 ## Interface Showcases
-#### Головний екран системи
+#### The main system view
 ![Main Interface](screenshots/menu.png)
 
-#### Приклад розрахунку маршруту
+#### Example of route calculation
 ![Route Example](screenshots/train.png)
 
-#### Вибір точки на мапі
+#### "Custom Location" feature triggered by a mouse click
 ![Click Selection](screenshots/custom_location.png)
-Primary Interface & Map Rendering
-The main system view featuring the rendered borders of Ukraine and indexed railway stations:
 
-Route Calculation & Analysis
-An example of a calculated route between two cities, detailed with train schedules, time, and pricing:
+#### Multimodal Navigation: Integration of car travel and railway schedules to build a  trip across the map
+![Click Selection](screenshots/car&train.png)
 
-Interactive Point Selection (Custom Location)
-Demonstration of the "Custom Location" feature triggered by a mouse click:
+#### Fallback to Car-Only Route
+Demonstration of the system automatically switching to a car routing model when no train connectivity exists:
+![Click Selection](screenshots/only_car.png)
 
+---
 ## 🛠 Technical Stack
 --Language: C++17
 
