@@ -1,14 +1,12 @@
-# Власний кеш Xcode
+
 .DS_Store
 DerivedData/
 *.moved-aside
 *.xcuserstate
 
-# Папка збірки (найголовніше!)
 build/
 bin/
 obj/
 
-# Тимчасові файли
 *.swp
 *.lock
