@@ -1,0 +1,7 @@
+Lviv Khmelnytskyi 7 0 300 100.0
+Khmelnytskyi Kyiv 13 0 360 150.0
+Lviv Rivne 9 0 120 400.0
+Rivne Kyiv 12 0 180 500.0
+Lviv Ternopil 8 30 135 150.0
+Ternopil Kyiv 12 45 350 320.0
+Ternopil Khmelnytskyi 10 15 110 120.0
