@@ -1,6 +1,8 @@
 # Trip Planner
 
-### A C++ terminal-based system for optimizing and visualizing railway travel routes across Ukraine, utilizing Dijkstra's algorithm and a functional terminal user interface.
+#### A C++ terminal-based system for optimizing and visualizing railway travel routes across Ukraine, utilizing Dijkstra's algorithm and a functional terminal user interface.
+
+---
 
 ## Project Overview
 Developed as part of the Applied Mathematics curriculum, this system calculates the most efficient or cost-effective paths between railway stations. It integrates graph theory with real-time visualization to map geographic data directly into the terminal environment.
