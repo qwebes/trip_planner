@@ -1,11 +1,11 @@
-#Trip Planner
+# Trip Planner
 
-###A C++ terminal-based system for optimizing and visualizing railway travel routes across Ukraine, utilizing Dijkstra's algorithm and a functional terminal user interface.
+### A C++ terminal-based system for optimizing and visualizing railway travel routes across Ukraine, utilizing Dijkstra's algorithm and a functional terminal user interface.
 
-##Project Overview
+## Project Overview
 Developed as part of the Applied Mathematics curriculum, this system calculates the most efficient or cost-effective paths between railway stations. It integrates graph theory with real-time visualization to map geographic data directly into the terminal environment.
 
-##Key Features:
+## Key Features:
 **Dijkstra’s Algorithm Implementation:** Efficient pathfinding based on two primary weights: travel duration (time) and ticket pricing (cost).
 
 **Geographic Visualization:** High-fidelity rendering of Ukraine's national borders and station hubs using ftxui::Canvas.
@@ -14,7 +14,7 @@ Developed as part of the Applied Mathematics curriculum, this system calculates 
 
 **Interactive Spatial Interaction**: Mouse-event handling for selecting arbitrary points on the map.
 
-##Interface Showcases
+## Interface Showcases
 Note: To display your images, upload them to a folder named screenshots in your repository and ensure the filenames match those used below.
 
 Primary Interface & Map Rendering
@@ -26,7 +26,7 @@ An example of a calculated route between two cities, detailed with train schedul
 Interactive Point Selection (Custom Location)
 Demonstration of the "Custom Location" feature triggered by a mouse click:
 
-##🛠 Technical Stack
+## 🛠 Technical Stack
 --Language: C++17
 
 --UI Framework: FTXUI
@@ -42,12 +42,12 @@ MapInterface: Encapsulates mathematical models for geographic projections and sp
 main.cpp: Orchestrates the system lifecycle, including data initialization and UI rendering loops.
 
 🚀 Installation & Build
-#Prerequisites:
+# Prerequisites:
 --CMake (3.10+)
 
 --A C++ compiler supporting the C++17 standard (Clang or GCC).
 
-#Build Instructions:
+# Build Instructions:
 ``` bash
 mkdir build
 ```
@@ -63,7 +63,7 @@ make
 ``` bash
 ./trip_planner
 ```
-##Data Sources
+## Data Sources
 The system operates on the following data structures:
 
 --data/UA_FULL_Ukraine.geojson: Geographic boundaries of Ukraine.
