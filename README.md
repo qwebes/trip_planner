@@ -17,8 +17,14 @@ This system calculates the most efficient or cost-effective paths between railwa
 **Interactive Spatial Interaction**: Mouse-event handling for selecting arbitrary points on the map.
 
 ## Interface Showcases
-Note: To display your images, upload them to a folder named screenshots in your repository and ensure the filenames match those used below.
+#### Головний екран системи
+![Main Interface](screenshots/main_screen.png)
 
+#### Приклад розрахунку маршруту
+![Route Example](screenshots/route_example.png)
+
+#### Вибір точки на мапі
+![Click Selection](screenshots/click_selection.png)
 Primary Interface & Map Rendering
 The main system view featuring the rendered borders of Ukraine and indexed railway stations:
 
