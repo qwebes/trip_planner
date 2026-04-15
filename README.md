@@ -5,7 +5,7 @@
 ---
 
 ## Project Overview
-Developed as part of the Applied Mathematics curriculum, this system calculates the most efficient or cost-effective paths between railway stations. It integrates graph theory with real-time visualization to map geographic data directly into the terminal environment.
+This system calculates the most efficient or cost-effective paths between railway stations. It integrates graph theory with real-time visualization to map geographic data directly into the terminal environment.
 
 ## Key Features:
 **Dijkstra’s Algorithm Implementation:** Efficient pathfinding based on two primary weights: travel duration (time) and ticket pricing (cost).
