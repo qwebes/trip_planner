@@ -18,13 +18,13 @@ This system calculates the most efficient or cost-effective paths between railwa
 
 ## Interface Showcases
 #### Головний екран системи
-![Main Interface](screenshots/main_screen.png)
+![Main Interface](screenshots/menu.png)
 
 #### Приклад розрахунку маршруту
-![Route Example](screenshots/route_example.png)
+![Route Example](screenshots/train.png)
 
 #### Вибір точки на мапі
-![Click Selection](screenshots/click_selection.png)
+![Click Selection](screenshots/custom_location.png)
 Primary Interface & Map Rendering
 The main system view featuring the rendered borders of Ukraine and indexed railway stations:
 
