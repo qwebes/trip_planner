@@ -1,6 +1,6 @@
 # Trip Planner
 
-#### A C++ terminal-based system for optimizing and visualizing railway travel routes across Ukraine, utilizing Dijkstra's algorithm and a functional terminal user interface.
+#### A C++ terminal-based system for optimizing and visualizing travel routes across Ukraine, utilizing Dijkstra's algorithm and a functional terminal user interface.
 
 ---
 
@@ -8,15 +8,16 @@
 This system calculates the most efficient or cost-effective paths between railway stations. It integrates graph theory with real-time visualization to map geographic data directly into the terminal environment.
 
 ## Key Features:
-- **Dijkstra’s Algorithm Implementation:** Efficient pathfinding based on two primary weights: travel duration (time) and ticket pricing (cost).
+- **Dijkstra’s Algorithm:** calculate the optimal path through a weighted graph. Users can optimize for two different criteria: time or price.
+  
+- **Geographic Visualization:** uses the ftxui::Canvas API to render Ukraine's national borders and cities directly in the terminal from GeoJSON data.
 
-- **Geographic Visualization:** High-fidelity rendering of Ukraine's national borders and station hubs using ftxui::Canvas.
+- **Coordinate Projection:** Mathematical transformation of Longitude/Latitude coordinates into a discrete coordinate system.
 
-- **Coordinate Projection Model:** Mathematical transformation of Longitude/Latitude coordinates into a discrete terminal-based coordinate system.
-
-- **Interactive Spatial Interaction**: Mouse-event handling for selecting arbitrary points on the map.
-
+- **Interactive TUI**: Full support for mouse events, allowing users to select custom locations by clicking on the map.
+  
 ---
+
 ## Interface Showcases
 #### The main system view
 ![Main Interface](screenshots/menu.png)
@@ -27,7 +28,7 @@ This system calculates the most efficient or cost-effective paths between railwa
 #### "Custom Location" feature triggered by a mouse click
 ![Click Selection](screenshots/custom_location.png)
 
-#### Multimodal Navigation: Integration of car travel and railway schedules to build a  trip across the map
+#### Multimodal Navigation: Integration of car travel and railway schedules to build a trip 
 ![Click Selection](screenshots/car&train.png)
 
 #### Fallback to Car-Only Route
@@ -44,9 +45,11 @@ Demonstration of the system automatically switching to a car routing model when 
 
 - Build System: CMake
 
-📂 System Architecture
+## 📂 System Architecture
 
 MapInterface: Encapsulates mathematical models for geographic projections and spatial distance algorithms.
+
+Dijkstra Engine: The core pathfinding component that navigates the graph of stations and road links.
 
 main.cpp: Orchestrates the system lifecycle, including data initialization and UI rendering loops.
 
