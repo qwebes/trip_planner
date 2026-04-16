@@ -10,10 +10,13 @@ FetchContent_MakeAvailable(ftxui)
 
 add_executable(trip_planner
     main.cpp
+    DataLoader.cpp DataLoader.hpp
+    TripSolver.cpp TripSolver.hpp
     Graph.cpp Graph.hpp
     Train.cpp Train.hpp
     Destination.cpp Destination.hpp
     MapInterface.cpp MapInterface.hpp
+    AppConfig.hpp
 )
 
 find_package(nlohmann_json REQUIRED)
